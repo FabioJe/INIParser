@@ -7,6 +7,8 @@
     <Description>.NET 6+ INI parser which is 4-10 times faster than comparable libraries and also supports asynchronous file loading. </Description>
     <Copyright>Fabio Jehring</Copyright>
     <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/FabioJe/INIParser</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FabioJe/INIParser</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
