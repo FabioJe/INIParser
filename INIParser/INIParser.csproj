@@ -9,6 +9,9 @@
     <RepositoryType>git</RepositoryType>
     <PackageProjectUrl>https://github.com/FabioJe/INIParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FabioJe/INIParser</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
