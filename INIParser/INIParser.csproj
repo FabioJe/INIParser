@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Description>.NET 6+ INI parser which is 4-10 times faster than comparable libraries and also supports asynchronous file loading. </Description>
+    <Copyright>Fabio Jehring</Copyright>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
