@@ -1,7 +1,7 @@
 ﻿using System.Text;
 namespace INIParser
 {
-    public class IniFile
+    public sealed class IniFile
     {
         private readonly Dictionary<string, Dictionary<string, string?>> _data = new();
         private string[]? sections;
