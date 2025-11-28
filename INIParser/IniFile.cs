@@ -64,7 +64,7 @@ namespace INIParser
                     continue;
                 }
                 if (lastSec is null) continue;
-                var data = pureText.Split(new char[] { '=' }, 2);
+                var data = pureText.Split('=', 2);
                 if (data.Length != 2) { continue; }              
                 var key = Trim(data[0]);
                 if (lastSec.ContainsKey(key))
@@ -107,8 +107,7 @@ namespace INIParser
         {
             get
             {
-                if (sections is null)
-                    sections = _data.Keys.ToArray();
+                sections ??= [.. _data.Keys];
                 return sections;
 
             }
@@ -117,8 +116,8 @@ namespace INIParser
         public string[] GetKeys(string section)
         {
             if (_data.TryGetValue(section, out var dsection))
-                return dsection.Keys.ToArray();
-            return Array.Empty<string>();
+                return [.. dsection.Keys];
+            return [];
         }
 
 
